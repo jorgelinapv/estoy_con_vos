@@ -1,0 +1,22 @@
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+h1, h2, h3, h5, .marca, .showTerminos{
+    font-family: 'Lato', sans-serif;
+    color: $color_primario;
+}
+
+p{
+    @if $parrafo == normal {
+        color: $negro;
+    }@else if $parrafo == voluntario {
+        color: $color_primario;
+    }@else if $parrafo == participante {
+        color: $color_terciario;
+    }
+}
+
+.terminos_condiciones{
+    font-size: $regular_size_text / $terminos+px;
+}

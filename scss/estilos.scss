@@ -1,0 +1,19 @@
+@import "variables";
+@import "tipografia";
+@import "estructura";
+@import "buttons";
+
+ul li a:hover{
+    opacity:0.6;
+    background-color: $color_secundario;
+    color: #fff;
+    padding: 4px;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+}
+
+.foto_principal{
+    flex: 0 0 auto;
+    width: 100%;
+}

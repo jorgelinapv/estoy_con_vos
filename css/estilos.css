@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=PT+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap");
+body {
+  font-family: 'Nunito', sans-serif; }
+
+h1, h2, h3, h5, .marca, .showTerminos {
+  font-family: 'Lato', sans-serif;
+  color: #296871; }
+
+p {
+  color: #25252e; }
+
+.terminos_condiciones {
+  font-size: 7px; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+header {
+  padding: 0 0 30px 0;
+  display: block;
+  margin-bottom: auto; }
+
+main {
+  padding: 40px; }
+
+.icon_index {
+  padding: 0.750rem 0rem 0.325rem 1rem; }
+
+.card-body {
+  flex: 1 1 auto;
+  padding: 1rem 0.375rem; }
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.25rem; }
+
+.btn__primario {
+  background-color: #296871;
+  color: #fff;
+  border-color: #296871; }
+
+.btn__secundario {
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-color: #296871; }
+
+.btn__primario:hover, .btn__secundario:hover {
+  opacity: 0.6;
+  color: #fff;
+  background-color: #296871;
+  border-color: #296871; }
+
+ul li a:hover {
+  opacity: 0.6;
+  background-color: #828387;
+  color: #fff;
+  padding: 4px;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.25rem; }
+
+.foto_principal {
+  flex: 0 0 auto;
+  width: 100%; }

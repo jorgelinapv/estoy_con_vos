@@ -1,0 +1,30 @@
+.btn{
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+}
+
+.btn__primario{
+    background-color: $color_primario;
+    color: #fff;
+    border-color: $color_primario;
+}
+
+.btn__secundario{
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-color: $color_primario;
+}
+
+.btn__primario:hover, .btn__secundario:hover{
+    opacity:0.6;
+    color: #fff;
+    background-color: $color_primario;
+    border-color: $color_primario;
+}
