@@ -7,6 +7,26 @@ h1, h2, h3, h5, .marca, .showTerminos{
     color: $color_primario;
 }
 
+.testimonio{
+    font-family: 'Lato', sans-serif;
+    h5{
+        background-color: $negro;
+        color: $blanco;
+        display: inline-flex;
+    }
+    p{
+        font-weight: bold;
+        color: $blanco;
+    }
+}
+
+@media (max-width: 992px) {
+    h5, .testimonio{
+        font-size: 7px;
+    }
+}
+
+
 p{
     @if $parrafo == normal {
         color: $negro;
