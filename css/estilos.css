@@ -13,13 +13,26 @@ h1, h2, h3, h5, .marca, .showTerminos {
     background-color: #25252e;
     color: #ffffff;
     display: inline-flex; }
+  .testimonio h3 {
+    font-size: 40px; }
   .testimonio p {
     font-weight: bold;
     color: #ffffff; }
+  .testimonio .textSection {
+    display: block;
+    font-size: 30px;
+    color: #959595;
+    margin-bottom: 15px; }
 
-@media (max-width: 992px) {
-  h5, .testimonio {
-    font-size: 7px; } }
+@media only screen and (min-width: 269px) and (max-width: 991px) {
+  .testimonio h5 {
+    font-size: 16px; }
+  .testimonio h3 {
+    font-size: 16px; }
+  .testimonio .textSection {
+    font-size: 15px;
+    color: #959595;
+    margin-bottom: 15px; } }
 
 p {
   color: #25252e; }
@@ -37,9 +50,10 @@ header {
   margin-bottom: auto; }
 
 main {
-  padding: 40px;
   display: flex;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  margin: 10px;
+  padding-top: 30px; }
 
 .icon_index {
   padding: 0.750rem 0rem 0.325rem 1rem; }
@@ -92,6 +106,26 @@ ul li a:hover {
 .foto_principal {
   flex: 0 0 auto;
   width: 100%; }
+
+.foto_testimonios {
+  position: relative;
+  display: flex;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 60%;
+  box-shadow: 0 0 20px 5px #000000c0; }
+
+@media only screen and (min-width: 269px) and (max-width: 991px) {
+  .foto_testimonios {
+    background-image: url(../images/icecream_cel.jpg);
+    position: relative;
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 70%;
+    box-shadow: 0 0 40px 5px #000000c0; } }
 
 footer {
   bottom: 0;

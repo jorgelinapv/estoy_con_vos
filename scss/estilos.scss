@@ -18,6 +18,29 @@ ul li a:hover{
     width: 100%;
 }
 
+.foto_testimonios {
+    position: relative;
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 60%;
+    box-shadow: 0 0 20px 5px #000000c0;
+}
+
+@media only screen and (min-width: 269px) and (max-width: 991px){
+    .foto_testimonios {
+        background-image: url(../images/icecream_cel.jpg);
+        position: relative;
+        display: flex;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 70%;
+        box-shadow: 0 0 40px 5px #000000c0;
+    }
+}
+
 footer{
     bottom: 0;
     left: 0;

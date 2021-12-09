@@ -1,7 +1,6 @@
 {
   "name": "sass_jorgelina_perezvilla",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,5 +12,16 @@
   "devDependencies": {
     "node-sass": "^6.0.1",
     "nodemon": "^2.0.15"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorgelinapv/estoy_con_vos.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jorgelinapv/estoy_con_vos/issues"
+  },
+  "homepage": "https://github.com/jorgelinapv/estoy_con_vos#readme",
+  "description": "",
+  "build-css": "node-sass --include-path scss scss/estilos.scss css/estilos.css",
+  "watch-css": "nodemon -e scss -x \"npm run build-css\""
 }
